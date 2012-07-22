@@ -145,7 +145,7 @@ some of your own.
 
 .notes I have an idea. What if we all just used or built the tool that's best for us?
 What if we concentrated on the technical problems in front of us instead of the environmental ones?
-Then we could all just shut the fuck up and
+Then we could all just do what's most important and
 
 !SLIDE
 # go get some work done. #

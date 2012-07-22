@@ -1,0 +1,1105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Batmens</title>
+
+  <meta name="viewport" content="width=device-width"/>
+
+  <link rel="stylesheet" href="./css/reset.css" type="text/css"/>
+  <link rel="stylesheet" href="./css/showoff.css" type="text/css"/>
+
+  <link type="text/css" href="./css/fg.menu.css" media="screen" rel="stylesheet" />
+  <link type="text/css" href="./css/theme/ui.all.css" media="screen" rel="stylesheet" />
+  <link type="text/css" href="./css/sh_style.css" rel="stylesheet" />
+
+  <script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
+  <script type="text/javascript" src="./js/jquery.cycle.all.js"></script>
+	<script type="text/javascript" src="./js/jquery-print.js"></script>
+  <script type="text/javascript" src="./js/jquery.batchImageLoad.js"></script>
+
+  <script type="text/javascript" src="./js/jquery.doubletap-0.1.js"></script>
+
+  <script type="text/javascript" src="./js/fg.menu.js"></script>
+  <script type="text/javascript" src="./js/showoff.js"></script>
+  <script type="text/javascript" src="./js/jTypeWriter.js"> </script>
+  <script type="text/javascript" src="./js/sh_main.min.js"></script>
+  <script type="text/javascript" src="./js/core.js"></script>
+  <script type="text/javascript" src="./js/showoffcore.js"></script>
+  <script type="text/javascript" src="./js/coffee-script.js"></script>
+
+  
+    
+      <script type="text/javascript" src="./js/sh_lang/sh_java.min.js"></script>
+    
+      <script type="text/javascript" src="./js/sh_lang/sh_coffeescript.min.js"></script>
+    
+      <script type="text/javascript" src="./js/sh_lang/sh_html.min.js"></script>
+    
+  
+
+  
+    <link rel="stylesheet" href="./file/bootstrap.css" type="text/css"/>
+  
+    <link rel="stylesheet" href="./file/style.css" type="text/css"/>
+  
+
+  
+    <script type="text/javascript" src="./file/bootstrap.js"></script>
+  
+    <script type="text/javascript" src="./file/main.coffee"></script>
+  
+
+  <script type="text/javascript">
+  $(function(){
+      setupPreso(false, './');
+  });
+  </script>
+
+</head>
+
+<body>
+
+<a tabindex="0" href="#search-engines" class="fg-button fg-button-icon-right ui-widget ui-state-default ui-corner-all" id="navmenu"><span class="ui-icon ui-icon-triangle-1-s"></span>slides</a>
+<div id="navigation" class="hidden"></div>
+
+<div id="help">
+  <table>
+    <tr><td class="key">z, ?</td><td>toggle help (this)</td></tr>
+    <tr><td class="key">space, &rarr;</td><td>next slide</td></tr>
+    <tr><td class="key">shift-space, &larr;</td><td>previous slide</td></tr>
+    <tr><td class="key">d</td><td>toggle debug mode</td></tr>
+    <tr><td class="key">## &lt;ret&gt;</td><td>go to slide #</td></tr>
+    <tr><td class="key">c, t</td><td>table of contents (vi)</td></tr>
+    <tr><td class="key">f</td><td>toggle footer</td></tr>
+    <tr><td class="key">r</td><td>reload slides</td></tr>
+    <tr><td class="key">n</td><td>toggle notes</td></tr>
+    <tr><td class="key">p</td><td>run preshow</td></tr>
+    <tr><td class="key">P</td><td>toggle pause</td></tr>
+  </table>
+</div>
+
+<div class="buttonNav">
+  <input type="submit" onClick="prevStep();" value="prev"/>
+  <input type="submit" onClick="nextStep();" value="next"/>
+</div>
+
+<div id="preso">loading presentation...</div>
+<div id="footer">
+  <span id="slideInfo"></span>
+  <span id="debugInfo"></span>
+  <span id="notesInfo"></span>
+</div>
+
+<div id="slides" class="offscreen" style="display:none;">
+<div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/01_intro/1">
+<h1>how to do stuff in java</h1>
+
+<p><img src="./file/one/java.jpg" width="380" height="248" alt="java"/></p>
+
+<h1><em class="orange">illustrated with stock photos</em></h1>
+
+
+<p class="quote">-1</p>
+
+<p class="quote-display"><a href="http://twitter.com/nciagra">@nciagra</a></p>
+
+<p class="notes">Hi everybody! I'd like to tell you I go by Dr. Nick but apparently</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/01_intro/2">
+<p><img src="./file/one/drnic.jpg" width="333" height="500" alt="dr. nic williams"/></p>
+
+<p class="notes">this man already has a trademark on that name.
+Instead, I'll just go with</p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/01_intro/3">
+<h1 style="text-transform:none"> Sir Nicholas J. Small III Sr. </h1>
+
+
+<p class="quote">-1</p>
+
+<p class="quote-display"><a href="http://twitter.com/nciagra">@nciagra</a></p>
+
+<p class="notes">I don't accept nicknames.</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/01_intro/4">
+<p><img src="./file/one/shopify.png" width="500" height="161" alt="shopify"/></p>
+
+<p class="notes">I work at Shopify on internety things.
+Using Java.</p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/01_intro/5">
+<pre class="sh_java"><code>import com.*.jar</code></pre>
+
+<p class="notes">That's what this conference is about, right?</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/01_intro/6">
+<p><img src="./file/one/business.jpg" width="397" height="604" alt="ha ha business"/></p>
+
+<p class="notes">No, i'm kidding, we're an all Ruby and JavaScript shop.</p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/01_intro/7">
+<h1>we need a framework for building a huge application</h1>
+
+<p class="notes">because</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/01_intro/8">
+<h1>THIS</h1></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/01_intro/9">
+<h1>IS</h1></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/01_intro/10">
+<p><img src="./file/one/shopify.png" width="500" height="161" alt="shopify"/></p>
+
+<p class="notes">and we don't fuck around</p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/01_intro/11">
+<p><img src="./file/one/sparta.jpg" width="400" height="300" alt="this is sparta"/></p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/01_intro/12">
+<p><img src="./file/one/orders.png" width="1200" height="984" alt="orders"/></p>
+
+<p class="notes">For the unfamiliar, Shopify is the world's greatest ecommerce platform for doing ecommercy things.
+This is the orders screen of our admin interface, and as you can see in this horribly scaled image,
+there's a lot of shit in here</p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/01_intro/13">
+<p><img src="./file/one/themes.png" width="1200" height="984" alt="themes"/></p>
+
+<p class="notes">Here's theme settings, where you can use an HTML interface to modify most of the parameters of your storefront's look and feel.
+Color pickers, html5 forms, lots more nasty stuff.</p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/01_intro/14">
+<h1>shopify 1</h1>
+
+<h2>is a rails app.</h2>
+
+<p class="notes">shopify 1 is a rails appand desperately needed to be modernized.
+but there's some problems</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/01_intro/15">
+<h2>it has an obscene amount of html files.</h2>
+
+<h1>over 500</h1>
+
+<p class="notes">Our views folder is ridonkadonk budunkadunk big.</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/01_intro/16">
+<h2>it has an obscene amount of rails code.</h2>
+
+<h1>over 9000!</h1>
+
+<p class="notes">and most of this is business logic which would just be silly to move to a different language.</p>
+
+<p class="quote">28</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/01_intro/17">
+<h1>it's this big.</h1>
+
+<p><img src="./file/one/huge.jpg" width="380" height="253" alt="big"/></p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/01_intro/18">
+<h1>so, how do we modernize this?</h1>
+
+<p class="notes">So, how do we modernize this?
+It's easy!</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/01_intro/19">
+<h2>it's easy.</h2>
+
+<h1>use backbone.js.</h1></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/01_intro/20">
+<h1>thanks.</h1>
+
+<p class="notes">thanks, goodbye!</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/01_intro/21">
+<h1>backbone is great.</h1>
+
+<p class="notes">Jokes jokes, backbone is amazing.
+Whether it's transitional or Tom Dale is a git, it's an amazing piece of code.
+But it didn't have enough structure to give us what we needed.</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/01_intro/22">
+<h1>ember is great.</h1>
+
+<p class="notes">If you haven't noticed, this is that certain measuring part of my talk.</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/01_intro/23">
+<h1>it's this big.</h1>
+
+<p><img src="./file/one/huge.jpg" width="380" height="253" alt="big"/></p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/01_intro/24">
+<h1>ember is great.</h1>
+
+<p class="notes">Ember is great, but being a Cappuccino core developer, I have moral objections to Ember.</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/01_intro/25">
+<h1>_____ is great.</h1>
+
+<p class="notes">Everything out there is great. Everyone solves this similar problem domain in very different ways.
+Obviously, we need an entire conference to argue about which framework is best.</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/01_intro/26">
+<h1>luckily, I have the answer.</h1></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/01_intro/27">
+<h1>it's simple.</h1>
+
+<p><img src="./file/one/embarrassed.jpg" width="380" height="303" alt="doh"/></p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/01_intro/28">
+<h1>you pick the tool that is best suited to your needs</h1>
+
+<p class="notes">It's simple, you pick the tool that does exactly what you need it to.
+I'd posit that there is no right answer for which frameork everyone of you should use.
+So, you either pick the right tool, or you</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/01_intro/29">
+<h1>you <strike>pick</strike> build the tool that is best suited to your needs</h1>
+
+<p class="notes">build the right tool.
+So, that's what we did.
+We built a framework to build apps exactly the way that shopify wanted, after we had been building apps for 5 years.</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/01_intro/30">
+<p><img src="./file/one/logo.png" width="919" height="238" alt="batman"/></p>
+
+<p class="notes">the rest of this talk will simply consist of me humming the score of The Dark Knight. Cool? Cool. Cool cool cool.</p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/02_features/1">
+<h2>you should use batman.js if:</h2>
+
+<ul>
+<li>you want to write in coffeescript to make your life easy</li>
+<li>you want to follow specific, Rails-like conventions to make your life easy</li>
+<li>you/your designer want to layout your UI and bindings in HTML</li>
+<li>you have a separate, ideally RESTful, API component</li>
+</ul>
+
+
+<p class="notes">ok look, this whole conference, I just wanted to see one thing from each framework:
+This chart.
+COFFEESCRIPT
+STRONG CONVENTIONS
+PLAIN HTML FOR DATA BINDINGS
+SUPER EASY API... COPULATION</p>
+
+<p class="quote">-1</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/02_features/2">
+<h2>you should <em>not</em> use batman.js if:</h2>
+
+<ul>
+<li>you are going to whine about having better syntax</li>
+<li>you want to use the same model code on the client and server</li>
+<li>you hate HTML; you should probably try Cappuccino</li>
+<li>you don't agree with our conventions or you really like XML configuration files</li>
+</ul>
+
+
+<p class="quote">-1</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/02_features/3">
+<h1>"But Sir Nicholas III, why would you want to use CoffeeScript over JavaScript?"</h1>
+
+<p class="notes">First of all, that's Sir Nicholas J. Small III Sr. to you.
+Second of all, this is a question I have been asked many times.
+I've gotten really good at answering.</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/02_features/4">
+<h1>Because it's better.</h1></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/02_features/5">
+<h1>That's why.</h1></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/02_features/6">
+<p><img src="./file/one/thumbsup.jpg" width="380" height="253" alt="doh"/></p>
+
+<p class="notes">And because I don't hate myself.
+The next person who asks why I would "limit batman's potential" by using a set of elegant syntax additions gets a much more... vulgar answer.
+But please, by all means, don't be afraid to ask!</p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/02_features/7">
+<h1>batman is strongly opinionated.</h1></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/02_features/8">
+<h1>like rails.</h1></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/02_features/9">
+<p><img src="./file/one/rails.jpg" width="253" height="380" alt="rails"/></p>
+
+<p class="notes">See, look how clean that looks!</p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/02_features/10">
+<h1>actually, <em>a lot</em> like rails.</h1>
+
+<p class="notes">If you're familiar with Rails, you'll feel pretty comfortable in the batman environment.
+To be clear, batman is not even remotely a port of rails, that would be absolutely fucking stupid.
+We just follow a lot of similar conventions.</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/02_features/11">
+<h1>similar directory structure</h1>
+
+<p><img src="./file/one/directories.png" width="1000" height="571" alt="directories"/></p>
+
+<p class="notes">It gives you a clear, convienent place to put everything, and all the right files can be automatically included.
+Obviously this is a HORRIBLE example, no one would EVER use icon view in Finder.</p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/02_features/12">
+<h1>"But Sir Nicholas III, what if I want to put my files somewhere else?"</h1></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/02_features/13">
+<p><img src="./file/one/facepalm.jpg" width="750" height="600" alt="facepalm"/></p>
+
+<p class="notes">Either use a different framework, or put your files where the files go.</p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/03_codez/1">
+<h1>easy* url routing</h1>
+
+<hr/>
+
+<hr/>
+
+<pre class="sh_coffeescript"><code>class Shopify extends Batman.App
+    @resources 'products'
+    @route 'search', 'search#index'
+
+class Shopify.ProductsController extends Batman.Controller
+    index: -&gt;
+        @products = Shopify.Product.get 'all'
+
+    show: (params) -&gt;
+        @product = Shopify.Product.find params.id</code></pre>
+
+<hr/>
+
+<pre class="sh_html"><code>&lt;a data-route="routes.products.index"&gt;Products&lt;/a&gt;</code></pre>
+
+<h2 style="margin-top:150px"> *if you're following conventions </h2>
+
+
+<p class="notes">foo</p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/03_codez/2">
+<h1>"But Sir Nicholas III, what if I want to route</h1>
+
+<pre><code>my-Stupid#u_r-L
+</code></pre>
+
+<h1>to a Jabber XML WebDAV node server?"</h1></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/03_codez/3">
+<p><img src="./file/one/double-facepalm.jpg" width="640" height="512" alt="facepalm"/></p>
+
+<p class="notes">Either use a different framework, or put your files where the files go.</p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/03_codez/4">
+<h1>easy* persistence</h1>
+
+<hr/>
+
+<hr/>
+
+<pre class="sh_coffeescript"><code>class Shopify.Product extends Batman.Model
+    @persist Batman.RestStorage
+    @validate 'name', presence: true</code></pre>
+
+<h2 style="margin-top:200px"> *if you're following conventions </h2>
+
+
+<p class="notes">As long as your models use the built in namespaces and a Rails-like JSON encoding, this will work right out of the box.
+INCLUDING</p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/03_codez/5">
+<h1>easy* associations</h1>
+
+<hr/>
+
+<hr/>
+
+<pre class="sh_coffeescript"><code>class Shopify.Product extends Batman.Model
+    @persist Batman.RestStorage
+
+    @hasMany 'images'
+    @belongsTo 'order'</code></pre>
+
+<h2 style="margin-top:200px"> *if you're following conventions </h2>
+
+
+<p class="notes">Now this is pretty cool stuff. Your associations client side will mirror those server side.
+If the data comes in from your backend with the associations inline, batman will put them right into the identity map.
+If they don't, batman will lazy load them, in this case the product image, when you request them.
+It even automatically builds the association URL, if you're following conventions.
+There's a lot of other nice stuff in our model API too, like easy pagination and filtering, and polymorphic associations.</p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="bindings-slide">
+	<div class="content" ref="one/03_codez/6">
+<h1>html bindings</h1>
+
+<hr/>
+
+<hr/>
+
+<pre class="sh_html"><code>&lt;div data-bind="conference.name"&gt;&lt;/div&gt;</code></pre>
+
+<h2 data-bind="conference.name"/>
+
+
+
+
+<div class="bindings">
+    conference.name: <input data-bind="conference.name"/>
+</div>
+
+
+</div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="bindings-slide">
+	<div class="content" ref="one/03_codez/7">
+<h1>html bindings</h1>
+
+<hr/>
+
+<hr/>
+
+<pre class="sh_html"><code>&lt;h2&gt;
+    This conference is &lt;span class="label"
+        data-addclass-success="conference.isAwesome"&gt;
+    &lt;span data-showif="conference.isAwesome"&gt;AWESOME&lt;/span&gt;
+    &lt;span data-hideif="conference.isAwesome"&gt;LAME&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/h2&gt;</code></pre>
+
+<h2>
+    This conference is <span class="label" data-addclass-label-success="conference.isAwesome">
+    <span data-showif="conference.isAwesome">AWESOME</span>
+    <span data-hideif="conference.isAwesome">LAME</span>
+    </span>
+</h2>
+
+
+
+
+<div class="bindings">
+    <label for="confIsAwesome"><strong>conference.isAwesome:</strong>
+        <input type="checkbox" data-bind="conference.isAwesome" name="confIsAwesome"/>
+    </label>
+</div>
+
+
+</div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="bindings-slide">
+	<div class="content" ref="one/03_codez/8">
+<h1>html bindings</h1>
+
+<hr/>
+
+<hr/>
+
+<pre class="sh_html"><code>&lt;ul&gt;
+    &lt;li data-foreach-framework="conference.frameworks"&gt;
+        &lt;span
+            data-bind="framework.name | default 'new'"&gt;
+        &lt;/span&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+
+<ul>
+    <li data-foreach-framework="conference.frameworks">
+        <span data-bind="framework.name | default 'new'"/>
+    </li>
+</ul>
+
+
+
+
+<div class="bindings">
+    <ul>
+        <li data-foreach-framework="conference.frameworks">
+            <span data-bind="framework.name | default 'new framework'"/>:
+            <input data-bind="framework.name" placeholder="Enter a framework name"/>
+        </li>
+    </ul>
+
+    <button class="btn" data-event-click="layout.addFramework">add</button>
+</div>
+
+
+</div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/03_codez/9">
+<h1>partials</h1>
+
+<hr/>
+
+<hr/>
+
+<pre class="sh_html"><code>&lt;div data-partial="products/inventory"&gt;&lt;/div&gt;</code></pre>
+
+<hr/>
+
+<p>views/products/inventory.html:</p>
+
+<hr/>
+
+<pre class="sh_html"><code>&lt;div class="product-inventory"&gt;
+    &lt;span data-bind="product.name | capitalize"&gt;&lt;/span&gt;
+    &lt;input data-bind="product.inventoryCount" /&gt;
+&lt;/div&gt;</code></pre>
+
+<p class="notes">And the great thing is you still have access to the outer scope inside of the partial.
+Shiny.</p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/03_codez/10">
+<h2>there hasn't been a stock photo in a while</h2>
+
+<p><img src="./file/one/meeting.jpg" width="380" height="253" alt="meeting"/></p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/03_codez/11">
+<h2>using data bindings is great if:</h2>
+
+<ul>
+<li>you want to avoid a loading screen</li>
+<li>you have a designer who wants to be able to add functionality to her designs</li>
+<li>you have existing html you want to modernize</li>
+<li>you want to use jQuery et. al to update the document</li>
+</ul>
+
+
+<p class="quote">-1</p>
+
+<p class="notes">By not having to translate your template string into a document fragment, the HTML is ready to go from the get go and can be shown immediately. Including to search engines!
+It really becomes feasible for designers to play a larger role in wiring up their designs without having to learn an entirely new language. They simply add HTML properties.
+Finally, if you are using something like jQuery to style your document, certain template languages will need to through out the whole document fragment when there's an update.
+Even though most modern ones are really smart about not doing that, data bindings alleviate the need for it completely.</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/03_codez/12">
+<h2>using data bindings is horrible if:</h2>
+
+<ul>
+<li>you hate html</li>
+<li>you want to mix <em>very</em> complex logic into your presentation layer</li>
+</ul>
+</div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content commandline incremental" ref="one/04_app/1">
+<h1>some tools</h1>
+
+<hr/>
+
+<pre><code><code class="command">$ batman new my_app</code>
+<code class="result">INFO: creating /Users/Nick/Code/Talks/my_app/resources/batman.png
+INFO: creating /Users/Nick/Code/Talks/my_app/index.html
+INFO: creating /Users/Nick/Code/Talks/my_app/my_app.coffee
+INFO: creating /Users/Nick/Code/Talks/my_app/package.json
+INFO: creating /Users/Nick/Code/Talks/my_app/controllers/application_controller.coffee
+INFO: creating /Users/Nick/Code/Talks/my_app/controllers/examples_controller.coffee
+INFO: creating /Users/Nick/Code/Talks/my_app/views/examples/index.html
+INFO: creating /Users/Nick/Code/Talks/my_app/README
+OK: my_app generated successfully.
+</code></code></pre></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content commandline incremental" ref="one/04_app/2">
+<h1>some tools</h1>
+
+<hr/>
+
+<pre><code><code class="command">$ batman gen controller products</code>
+<code class="result">INFO: creating /Users/Nick/Code/Talks/my_app/controllers/products_controller.coffee
+OK: products generated successfully.
+
+</code><code class="command">$ batman gen model product</code>
+<code class="result">INFO: creating /Users/Nick/Code/Talks/my_app/models/product.coffee
+OK: product generated successfully.
+</code></code></pre></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/04_app/3">
+<h2>my_app.coffee</h2>
+
+<pre class="sh_coffeescript"><code>class MyApp extends Batman.App
+    @resources 'products'
+    @root 'products#index'
+
+# Make MyApp available in the global namespace so it can be used
+# as a namespace and bound to in views.
+window.MyApp = MyApp</code></pre></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/04_app/4">
+<h2>controllers/products_controller.coffee</h2>
+
+<pre class="sh_coffeescript"><code>class MyApp.ProductsController extends Batman.Controller
+routingKey: 'products'
+    index: (params) -&gt;
+        @products = MyApp.Product.get 'all'
+
+    new: (params) -&gt;
+        @product = new MyApp.Product
+
+    create: -&gt;
+        @product.save()
+        @redirect '/'</code></pre></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/04_app/5">
+<h2>models/product.coffee</h2>
+
+<pre class="sh_coffeescript"><code>class MyApp.Product extends Batman.Model
+    @resourceName: 'product'
+    @persist Batman.RestStorage
+
+    @encode 'name'
+    @validate 'name', presence: true
+
+    @hasMany 'tags'</code></pre></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/04_app/6">
+<h2>views/products/index.html</h2>
+
+<pre class="sh_html"><code>&lt;table&gt;
+    &lt;tr data-foreach-product="products"&gt;
+        &lt;td data-bind="product.name"&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;a data-route="routes.products.new"&gt;New Product&lt;/a&gt;</code></pre></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/04_app/7">
+<h2>views/products/new.html</h2>
+
+<pre class="sh_html"><code>&lt;form data-formfor-product="product" data-event-submit="create"&gt;
+    &lt;div&gt;Name: &lt;input type="text" data-bind="product.name" /&gt;&lt;/div&gt;&lt;br /&gt;
+    &lt;div&gt;&lt;input type="submit"&gt;&lt;/div&gt;
+&lt;/form&gt;</code></pre></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/05_conclusion/1">
+<h1>there's some other stuff</h1>
+
+<p><img src="./file/one/treasure.jpg" width="253" height="380" alt="treasure"/></p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/05_conclusion/2">
+<h1>tonnes of test coverage</h1></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/05_conclusion/3">
+<h1>tonnes of performance</h1></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/05_conclusion/4">
+<h1>tonnes of knowledge from Shopify 2</h1></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/05_conclusion/5">
+<h1>there's some cool stuff coming</h1>
+
+<p><img src="./file/one/future.jpg" width="380" height="286" alt="future"/></p>
+
+<p class="notes">I'm excited to announce that we'll be launching</p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/05_conclusion/6">
+<p><img src="./file/one/beta.png" width="200" height="140" style="position:absolute; left: 100px; top: 250px"/></p>
+
+<h1>shopify 2</h1>
+
+<h1>batman.js 1.0</h1>
+
+<p class="notes">the big production-ready 1.0 of batman along with the launch of our own shopify 2.
+We're pretty confident in it by now to use it in our production app.
+I'll also be showing off Shopify 2 in a case study session later today.</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/05_conclusion/7">
+<h1>complete docs and guides</h1>
+
+<p class="notes">As we've ramped up more developers on the project, we've had to really build out the documentation to get them up to speed.
+This has been one of our biggest complaints so far. We're really excited to finally improve the situation.</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/05_conclusion/8">
+<h1>@batmanjs</h1>
+
+<p><img src="./file/one/tweet.jpg" width="295" height="380" alt="twitter"/></p>
+
+<p class="notes">thanks to the heroic efforts of Jonathan Snook, we've finally been given control of the batmanjs twitter account.
+You should follow it. It will be cool.</p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/05_conclusion/9">
+<h1>batmanconf</h1></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/05_conclusion/10">
+<h1>trolololol</h1>
+
+<p><img src="./file/one/trolol.jpg" width="371" height="348" alt="trololol"/></p>
+
+<p class="notes">Yeah, not really.</p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/05_conclusion/11">
+<h1>so.</h1></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/05_conclusion/12">
+<h1>the ultimate question</h1></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/05_conclusion/13">
+<h1>the question that must never be asked</h1>
+
+<p><img src="./file/one/question.jpg" width="253" height="380" alt="question"/></p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/05_conclusion/14">
+<h1>is batman.js the framework for you?</h1></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/05_conclusion/15">
+<h2>you should use batman.js if:</h2>
+
+<ul>
+<li>you want to write in coffeescript to make your life easy</li>
+<li>you want to follow specific, Rails-like conventions to make your life easy</li>
+<li>you/your designer want to layout your UI and bindings in HTML</li>
+<li>you have a separate, ideally RESTful, API component</li>
+</ul>
+
+
+<p class="notes">let's refer back to chart one.</p>
+
+<p class="quote">-1</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/05_conclusion/16">
+<h1>if that sounds like the way you want to build your app, then pick batman.js</h1>
+
+<p><img src="./file/one/love.jpg" width="380" height="253" alt="love"/></p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/05_conclusion/17">
+<h1>we will fully support you in your decision</h1>
+
+<p class="notes">We'll support you a little bit with your programming too</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="image-slide">
+	<div class="content" ref="one/05_conclusion/18">
+<h1>if you don't want to build your app this way, please feel free to build your app in absolutely any other way you'd like</h1>
+
+<p><img src="./file/one/hotdog.jpg" width="258" height="380" alt="hot dog don't care"/></p>
+
+<p class="notes">and I will feel free to know nothing about it.</p></div>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/05_conclusion/19">
+<h1>backbone</h1>
+
+<h1>ember</h1>
+
+<h1>meteor</h1>
+
+<h1>angular</h1>
+
+<h1>batman</h1>
+
+<h1>knockout</h1>
+
+<h1>spine</h1>
+
+<p class="notes">you've had two days of all of us telling you what our frameworks do.</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/05_conclusion/20">
+<h1>spine</h1>
+
+<h1>knockout</h1>
+
+<h1>batman</h1>
+
+<h1>angular</h1>
+
+<h1>meteor</h1>
+
+<h1>ember</h1>
+
+<h1>backbone</h1>
+
+<p class="notes">there's also been some politics and arguing and why we all solved the most of the same problems in the best way.</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/05_conclusion/21">
+<h1>_____ is great.</h1>
+
+<p class="notes">Everything is great. Here's just a few things to keep in mind before choosing open source your software.</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/05_conclusion/22">
+<h1>how many of these features am I actually going to need?</h1>
+
+<p class="notes">because the ones you don't use you won't support and they will jaundice</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/05_conclusion/23">
+<h1>are you contributing new knowledge or repurposing existing techniques?</h1>
+
+<p class="notes">Both are absolutely necessary, but it helps to know how to position yourself.</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/05_conclusion/24">
+<h1>is this framework built in a way that will make me <em>enjoy</em> using it?</h1>
+
+<p class="notes">Cause if you don't who will? Maybe sometimes it's worth just looking at how
+to make your own. And that's really easy too.</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/05_conclusion/25">
+<h1>just start building your app.</h1>
+
+<p class="notes">Don't waste time trying to pick the best framework before you start, and just start writing.
+Whenever you write the same function twice, pull it out. That's your "framework," and that framework
+will do EXACTLY what you want in EXACTLY the right way. The main thing you'll lose is some of the
+knowledge generated by people already working on these problems, but hopefully you can generate
+some of your own.</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/05_conclusion/26">
+<h1>so.</h1>
+
+<p class="notes">I have an idea. What if we all just used or built the tool that's best for us?
+What if we concentrated on the technical problems in front of us instead of the environmental ones?
+Then we could all just do what's most important and</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div><div class="slide" data-transition="none"><div class="pretty-slide">
+	<div class="content" ref="one/05_conclusion/27">
+<h1>go get some work done.</h1>
+
+<p><img src="./file/one/thumbsup.jpg" width="380" height="253" alt="thumbs up"/></p>
+
+<p class="quote-display"><a href="http://batmanjs.org">batmanjs.org</a> |
+<a href="http://twitter.com/batmanjs">@batmanjs</a> |
+<a href="http://twitter.com/nciagra">@nciagra</a></p>
+
+<p class="quote">-1</p></div>
+
+	<div data-bind="layout.quote" class="quote-display" rel="tooltip" title="click to change quote" data-toggle="modal" href="#changeQuote"/>
+</div>
+</div></div>
+<div id="pauseScreen">
+  
+</div>
+
+<div data-partial="random"></div>
+
+</body>
+</html>

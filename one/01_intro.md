@@ -77,7 +77,7 @@ Color pickers, html5 forms, lots more nasty stuff.
 # shopify 1 #
 ## is a rails app. #
 
-.notes and desperately needed to be modernized.
+.notes shopify 1 is a rails appand desperately needed to be modernized.
 but there's some problems
 
 !SLIDE
@@ -91,7 +91,6 @@ but there's some problems
 # over 9000! #
 
 .notes and most of this is business logic which would just be silly to move to a different language.
-Also, these quotes are random every time. I love when they match up with the slide.
 
 .quote 28
 
@@ -143,13 +142,8 @@ Obviously, we need an entire conference to argue about which framework is best.
 !SLIDE
 # luckily, I have the answer. #
 
-!SLIDE
-# it's simple. #
-
-.notes it's simple, we kill the batman
-Shit, sorry, wrong movie.
-
 !SLIDE[tpl=image]
+# it's simple. #
 ![doh](embarrassed.jpg)
 
 !SLIDE
