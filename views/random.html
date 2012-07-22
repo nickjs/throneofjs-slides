@@ -1,0 +1,25 @@
+<div class="modal hide fade" id="changeQuote">
+	<div class="modal-header">
+		<h3>Change Quote</h3>
+		<button type="button" class="close" data-dismiss="modal">×</button>
+	</div>
+	<div class="modal-body">
+		<p>Pick a quote to show!</p>
+		<ul class="nav nav-list">
+			<li class="nav-header">Quotes</li>
+			<li data-foreach-quote="quotes">
+				<a data-bind="quote" data-event-click="layout.setQuote | withArguments quote" data-dismiss="modal"></a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<div class="modal hide fade" id="changeBindings">
+	<div class="modal-header">
+		<h3>Change You Some Bindings</h3>
+		<button type="button" class="close" data-dismiss="modal">×</button>
+	</div>
+	<div class="modal-body">
+
+	</div>
+</div>

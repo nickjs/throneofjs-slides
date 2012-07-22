@@ -1,0 +1,5 @@
+{
+	"name": "Batmens",
+	"templates": {"default": "default.tpl", "image": "image.tpl", "bindings": "bindings.tpl"},
+	"sections": [ {"section":"one"} ]
+	}
